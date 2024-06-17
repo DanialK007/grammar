@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* npx tailwindcss -i ./src/Input.css -o ./src/Output.css --watch */
+
+
+@font-face {
+    font-family: 'MyFont'; /* Use quotes around the font-family name */
+    src: url('Fonts/SuperchargeItalic-ywOWd.otf') format('opentype'); /* Specify the format */
+}
+
+.os{
+    line-height: 0.8;
+}
+
+.MyFont {
+    font-family: 'MyFont'; /* Use quotes around the font-family name */
+}
+
+.fadeOut{
+    animation: fadeOut 4s ease-out;
+}
+
+@keyframes fadeOut {
+    0%, 90%{ opacity: 1;}
+    100% {opacity: 0;}
+}
