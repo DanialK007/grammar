@@ -30,7 +30,7 @@ function ApiTest() {
                 ))}
             </div>
         </div>
-    );
+    )
 }
 
 export default ApiTest;

@@ -11,7 +11,7 @@ root.render(
   <React.StrictMode>
     <Router>
       <ApiTest />
-    </Router>,
+    </Router>
   </React.StrictMode>
 );
 
